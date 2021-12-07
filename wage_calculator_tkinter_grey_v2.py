@@ -93,7 +93,7 @@ hours.grid(row=3, rowspan=1, column=1, columnspan=2, padx=20, pady=5)
 mainfield = Text(root,  bg='#222222', fg='#aedbf0', width=60, height=20, borderwidth=1, highlightthickness=1)
 mainfield.grid(row=2, rowspan=2, column=3, columnspan=4, padx=20, pady=5)
 mainfield.config(highlightbackground ='#000000', highlightcolor='#111111')
-mainfield.insert(END, "Left fields: Calculate your wage based on hours and rate.\nDoes not calculate overtime. \nRight field: Breakdown of income by gross yearly income.")
+mainfield.insert(END, "Left fields: Calculate your wage based on hours and rate.\nRight field: Breakdown of income by gross yearly income.")
          
 gross = Text(root,  bg='#333333', fg='#aedbf0', width=13, height=1, borderwidth=1, highlightthickness=1)
 gross.config(highlightbackground ='#000000', highlightcolor='#111111')
